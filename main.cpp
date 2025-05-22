@@ -145,7 +145,7 @@ int main() {
 		in >> u >> v >> w;
 		g.addEdge(u, v, w);
 	}
-	cout << "Undirected and Unweighted Graph:" << endl;
+	cout << "Undirected and Weighted Graph:" << endl;
 	g.display();
 	g.DFS();
 	g.BFS();
