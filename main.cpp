@@ -127,8 +127,7 @@ public:
 		}
 		cout << "Shortest path between "
 			<< u << " & " << v << " is " <<
-			max(distance[v], distance[u]) - min(distance[v], distance[u]) <<
-			endl;
+			max(distance[v], distance[u]) <<endl;
 		distance = vector<int>(V, INT_MAX);
 	}
 };
